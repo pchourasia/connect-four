@@ -213,10 +213,10 @@ class GameContainer extends Component {
                     return (
                       <div className={"circle" + (this.state.winCircles && this.state.winCircles.includes(rowIndex + "" + colIndex) ? " win-mark" : "")} key={rowIndex + "" + colIndex} data-col={colIndex}>
                         {
-                          subItems == 1 ? <div className="p1-img"><img src={avatar01} className="imgSize" /></div> : null
+                          subItems == 1 ? <div className="p1-img" data-col={colIndex}><img src={avatar01} className="imgSize" data-col={colIndex}/></div> : null
                         }
                         {
-                          subItems == 2 ? <div className="p2-img"><img src={avatar02} className="imgSize" /></div> : null
+                          subItems == 2 ? <div className="p2-img" data-col={colIndex}><img src={avatar02} className="imgSize" data-col={colIndex} /></div> : null
                         }
 
                       </div>

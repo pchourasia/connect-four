@@ -74,7 +74,7 @@
   animation-name: img-animate;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation-timing-function: ease-out;
 }
 .p2-img{
   width: 54px;
@@ -87,11 +87,15 @@
   animation-name: img-animate;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation-timing-function: ease-out;
 }
 @keyframes img-animate {
   0%   { transform: translateY(-800px);}
+  
+  60% { transform: translateY(0);}
+  80% { transform: translateY(-50%);}
   100% {transform: translateY(0);}
+
 }
 .imgSize{
   width: 40px;
@@ -169,6 +173,8 @@
   }
   @keyframes img-animate {
     0%   { transform: translateY(-520px);}
+    60% { transform: translateY(0);}
+    80% { transform: translateY(-50%);}
     100% {transform: translateY(0);}
   }
 }
@@ -187,6 +193,8 @@
   }
   @keyframes img-animate {
     0%   { transform: translateY(-480px);}
+    60% { transform: translateY(0);}
+    80% { transform: translateY(-50%);}
     100% {transform: translateY(0);}
   }
 }
