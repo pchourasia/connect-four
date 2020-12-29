@@ -1,6 +1,7 @@
 # Getting Started with Connect Four Game
 
 This is a 2 player game to make 4 consecutive player tile in row/column/daigonal.
+It is responsive for all the resolution apart from mobile devices.
 
 ## Available Scripts
 
