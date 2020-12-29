@@ -1,0 +1,150 @@
+.card{
+  padding: 16px;
+  width: 100%;
+  height: 140px;
+  border: 1px solid #70707026;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.card .img-container{
+  width: 80px;
+  height: 80px;
+  border-radius: 55px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-theme-green{
+  background: #DCF6E4;
+}
+.card-theme-green .img-container{
+border: 12px solid #37AC5D;
+}
+
+.card-theme-yellow{
+  background: #F6EFD5;
+}
+.card-theme-yellow .img-container{
+  border: 12px solid #F8D146;
+  }
+
+.card-theme-blue{
+  background: #EFF3FF;
+  cursor: pointer;
+}
+.card-theme-blue .img-container{
+  border: 12px solid #B1C4F9;
+  }
+
+.card .container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #424242;
+  padding-left: 20px;
+  width: auto;
+}
+.card .bottom-border{
+  border-bottom: 1px solid #424242;
+  width: 80%;
+  padding-bottom: 10px;
+}
+.card .container .label{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card .container .value
+{
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: left;
+}
+.card .score{
+  align-items: center;
+  margin-left: auto;
+}
+.selected-player{
+  border: 12px solid #ffa200;
+  border-radius: 70px;
+}
+.non-selected-player{
+  width: 128px;
+  display: flex;
+  justify-content: center;
+}
+
+.customize-input{
+  width: 100%;
+  border: 0;
+  margin: 0;
+  display: block;
+  background: none;
+  box-sizing: content-box;
+}
+
+.customize-input:focus{
+  outline: 0;
+}
+
+@media screen and (max-width: 1600px) {
+  .card{
+    padding: 16px;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card .img-container{
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-theme-green .img-container{
+  border: 6px solid #37AC5D;
+  }
+
+  .card-theme-yellow .img-container{
+    border: 6px solid #F8D146;
+    }
+
+  .card-theme-blue .img-container{
+    border: 6px solid #B1C4F9;
+    }
+  
+  .card .container{
+    padding-left: 10px;
+  }
+  .card .bottom-border{
+    width: 80%;
+    padding-bottom: 5px;
+  }
+  .card .container .label{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  .card .container .value
+  {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .selected-player{
+    border: 6px solid #ffa200;
+  }
+  .non-selected-player{
+    width: 74px;
+  }
+  
+  .logoImg{
+    width: 36px;
+  }
+}
