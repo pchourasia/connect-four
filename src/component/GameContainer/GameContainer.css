@@ -19,8 +19,8 @@
 }
 
 .circle{
-  width: 100px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 55px;
   border: 10px solid #84A4FC;
   background-color: #fff;
@@ -64,26 +64,26 @@
 }
 
 .p1-img{
-  width: 54px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 55px;
   align-items: center;
   display: flex;
   justify-content: center;
-  border: 12px solid #37AC5D;
+  border: 10px solid #37AC5D;
   animation-name: img-animate;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
 }
 .p2-img{
-  width: 54px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 55px;
   align-items: center;
   display: flex;
   justify-content: center;
-  border: 12px solid #F8D146;
+  border: 10px solid #F8D146;
   animation-name: img-animate;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
@@ -103,7 +103,7 @@
 }
 
 .win-mark{
-  border: 8px solid yellow;
+  border: 10px solid yellow;
 }
 .congrats{
   color: #ff6600;
