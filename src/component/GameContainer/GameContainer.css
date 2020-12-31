@@ -122,8 +122,8 @@
   }
   
   .circle{
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 46px;
     border: 8px solid #84A4FC;
   }
   
@@ -150,13 +150,13 @@
   }
   
   .p1-img{
-    width: 28px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     border: 6px solid #37AC5D;
   }
   .p2-img{
-    width: 28px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     border: 6px solid #F8D146;
   }
   .imgSize{
