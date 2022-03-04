@@ -3,6 +3,9 @@
 This is a 2 player game developed in React JS, to make 4 consecutive player tile in row/column/daigonal.
 It is responsive for all the resolution apart from mobile devices.
 
+## Available online
+You can play this game by hitting https://todolist-reactjs-pk.herokuapp.com/
+
 ## Available Scripts
 
 To run this game in your local:
